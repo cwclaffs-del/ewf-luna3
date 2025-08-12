@@ -1,3 +1,5 @@
+cd ~/bootstrap
+nano README.md
 #!/data/data/com.termux/files/usr/bin/bash
 set -e
 
