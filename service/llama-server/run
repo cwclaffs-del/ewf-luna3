@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+exec ~/llama.cpp/build/server \
+  -m ~/llama.cpp/models/mistral-7b-instruct-v0.1.Q4_K_M.gguf \
+  --host 127.0.0.1 --port 8001 \
+  -c 2048 -t $(nproc) --chat
